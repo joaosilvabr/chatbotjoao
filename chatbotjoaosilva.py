@@ -10,18 +10,6 @@ opcao = [conversa1,conversa2,conversa3]
 escolha = choice(opcao)
 resposta = input(escolha)
 
-a = {'carro':'é um veiculo','piada':
-     " — Qual o seu nome?"
-" — Abu Adidalah Sarafi."
-" — Sexo?"
-" — Quatro vezes por semana."
-" — Não, não! Homem ou mulher?"
-" — Homem, mulher… algumas vezes camelo também!",'nome':'meu nome é bbot e o seu ate onde sei é ' + resposta + ' rs!'}
-carro = a['carro']
-piada = a['piada']     
-nome = a['nome']
-
-
 resposta2 = input(format('') + (" muito prazer " + resposta + ", você está bem? "))
 
 if (resposta2.upper() == "SIM"):
