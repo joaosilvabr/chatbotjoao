@@ -1,6 +1,5 @@
-
-iniciachat = input()
 from random import choice
+iniciachat = input()
 conversa1 = str("Me chamo bbot1, qual é o seu nome? ")
 conversa2 = str("qual seu nome?")
 conversa3 = str(" Eu sou o bbot, como vc se chama? ")
